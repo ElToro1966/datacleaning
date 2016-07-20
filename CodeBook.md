@@ -108,9 +108,9 @@ Transformations and Work Performed To Clean Up The Data
 -------------------------------------------------------
 
 1. Merging of the training and the test sets to create one data set:
-1.1. features.txt contains all variable names of the original data set and is thus used to create and name coloumns in the new data sets.
-1.2. x_train.txt and x_test.txt contains all the data in the training and test sets respectively, and are used to crete rows in the new data sets.
-1.3. After creating two data sets, traindf and testdf, we merge these data sets into one large data set; completedf.
+  1.1. features.txt contains all variable names of the original data set and is thus used to create and name coloumns in the new data sets.
+  1.2. x_train.txt and x_test.txt contains all the data in the training and test sets respectively, and are used to crete rows in the new data sets.
+  1.3. After creating two data sets, traindf and testdf, we merge these data sets into one large data set; completedf.
 
 2. Extraction of only the measurements on the mean and standard deviation for each measurement: We are supposed to get the only the measurements on the mean and standard deviation for each measurement. From features.txt we can see that alle these variable names contain either "std()" or "mean()" (the very last variables, angle..., have "mean" only, but these variables are not to be included as all angle...-variables are only derivations of measurements). Thus, we can choose columns with the help of regular expression.
 
