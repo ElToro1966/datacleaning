@@ -1,3 +1,6 @@
+---
+output: html_document
+---
 # datacleaning
 
 Read Me
@@ -26,7 +29,7 @@ We extract the required columns by finding column names containing
 * mean()
 * std()
 
-We also want to include the variables we added above:
+We also want to include the variables we added when getting the activities and subjects, as well as a column showing where the data originated from (for traceability):
 * subject
 * activity
 * originaldataset
@@ -50,5 +53,7 @@ The original datase used [1] is distributed AS-IS and no responsibility implied 
 
 Reference
 ---------
-[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
+[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012).
+Vitoria-Gasteiz, Spain. Dec 2012.
+
 [2] Tidy Data, by Hadley Wickham. Journal of Statistical Software, August 2014. Downloaded July 18, 2016. https://www.jstatsoft.org/article/view/v059i10/v59i10.pdf
