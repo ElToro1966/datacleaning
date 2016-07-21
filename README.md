@@ -36,8 +36,11 @@ We also want to include the variables we added when getting the activities and s
 We create a second, independet tidy dataset by aggregating on activity and subject. The data set is further cleaned by removing columns containing superfluous information or only NAs (activity, subject and originaldataset). 
 
 This dataset is thus grouped by activity and subject. It is tidy according to [2]:&nbsp;
+
 1.  Each variable forms a column.
+
 2.  Each observation forms a row.
+
 3.  Each type of observational unit forms a table.
 
 ###Saving the Data
