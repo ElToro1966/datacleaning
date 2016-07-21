@@ -121,7 +121,7 @@ Combining the above - as well as activity and subject - gives us the following v
 
 45. fBodyAcc-mean()-Z
 
-45. fBodyAcc-std()-X
+46. fBodyAcc-std()-X
 
 47. fBodyAcc-std()-Y
 

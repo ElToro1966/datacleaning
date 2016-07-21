@@ -34,10 +34,10 @@ rm(traindf); rm(trainlabelsdf); rm(testdf); rm(testlabelsdf)
 # Extract only the measurements on the mean and standard deviation for each measurement,
 # interpreted as being columns with std() or mean() in the variable name (in addition
 # we need the columns we added above; subject, activity and originaldataset)
-colselection <- grep('mean[:punct:]|std[:punct:]|subject|activity|originaldataset',
+colselection <- grep('(mean..$|mean....$|std..$|std....$)|subject|activity|originaldataset',
                      colnames(completedf))
 selectdf <- completedf[,colselection]
-#rm(completedf)
+rm(completedf)
 
 #From the data set, selecteddf, we create a second, independent tidy data set, 
 # byactivitysubject, with the average of each variable for each 
